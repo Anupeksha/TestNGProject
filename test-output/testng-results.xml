@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17699" started-at="2021-02-05T22:09:42 IST" finished-at="2021-02-05T22:10:00 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17699" started-at="2021-02-05T22:09:42 IST" finished-at="2021-02-05T22:10:00 IST">
+      <class name="CustomLocators.CustomCSS">
+        <test-method status="PASS" signature="before()[pri:0, instance:CustomLocators.CustomCSS@17d677df]" name="before" is-config="true" duration-ms="8732" started-at="2021-02-05T22:09:43 IST" finished-at="2021-02-05T22:09:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="Google()[pri:0, instance:CustomLocators.CustomCSS@17d677df]" name="Google" duration-ms="7687" started-at="2021-02-05T22:09:51 IST" finished-at="2021-02-05T22:09:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Google -->
+        <test-method status="PASS" signature="after()[pri:0, instance:CustomLocators.CustomCSS@17d677df]" name="after" is-config="true" duration-ms="1225" started-at="2021-02-05T22:09:59 IST" finished-at="2021-02-05T22:10:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+      </class> <!-- CustomLocators.CustomCSS -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

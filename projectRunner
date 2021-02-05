@@ -1,0 +1,2 @@
+cd /home/anu/Workspace_IntelliJ/TestNG
+mvn test
