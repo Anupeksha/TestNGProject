@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="41287" started-at="2021-02-05T22:41:57 IST" finished-at="2021-02-05T22:42:38 IST">
+  <suite name="Suite" duration-ms="33525" started-at="2021-02-06T07:56:20 IST" finished-at="2021-02-06T07:56:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="41287" started-at="2021-02-05T22:41:57 IST" finished-at="2021-02-05T22:42:38 IST">
-      <class name="MouseActions.ActionsClass">
-        <test-method status="PASS" signature="before()[pri:0, instance:MouseActions.ActionsClass@23e028a9]" name="before" is-config="true" duration-ms="10992" started-at="2021-02-05T22:41:57 IST" finished-at="2021-02-05T22:42:08 IST">
+    <test name="Test" duration-ms="33525" started-at="2021-02-06T07:56:20 IST" finished-at="2021-02-06T07:56:53 IST">
+      <class name="Frames.iFrame">
+        <test-method status="PASS" signature="before()[pri:0, instance:Frames.iFrame@23e028a9]" name="before" is-config="true" duration-ms="16282" started-at="2021-02-06T07:56:20 IST" finished-at="2021-02-06T07:56:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method status="PASS" signature="spicejet()[pri:0, instance:MouseActions.ActionsClass@23e028a9]" name="spicejet" duration-ms="28359" started-at="2021-02-05T22:42:08 IST" finished-at="2021-02-05T22:42:36 IST">
+        <test-method status="PASS" signature="paytm()[pri:0, instance:Frames.iFrame@23e028a9]" name="paytm" duration-ms="15740" started-at="2021-02-06T07:56:36 IST" finished-at="2021-02-06T07:56:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- spicejet -->
-        <test-method status="PASS" signature="after()[pri:0, instance:MouseActions.ActionsClass@23e028a9]" name="after" is-config="true" duration-ms="1858" started-at="2021-02-05T22:42:36 IST" finished-at="2021-02-05T22:42:38 IST">
+        </test-method> <!-- paytm -->
+        <test-method status="PASS" signature="after()[pri:0, instance:Frames.iFrame@23e028a9]" name="after" is-config="true" duration-ms="1404" started-at="2021-02-06T07:56:52 IST" finished-at="2021-02-06T07:56:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- MouseActions.ActionsClass -->
+      </class> <!-- Frames.iFrame -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
