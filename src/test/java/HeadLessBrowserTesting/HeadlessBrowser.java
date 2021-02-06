@@ -33,15 +33,17 @@ public class HeadlessBrowser
 		//		System.setProperty("webdriver.gecko.driver", "/home/anu/Selenium Drivers/geckodriver");
 		//HTMLUnitDriver is not available in Selenium 3
 		//To use this concept, download HTMLUnitDRiver jars
-		WebDriver driver = new HtmlUnitDriver();
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
-
-		driver.get("https://ui.freecrm.com");
-		driver.findElement(By.name(prop.getProperty("username_name"))).sendKeys(prop.getProperty("userName"));
-		driver.findElement(By.name(prop.getProperty("password_name"))).sendKeys(prop.getProperty("Password"));
+			//HTMLUnitDriver is not available in Selenium 3
+		//To use this concept, download HTMLUnitDRiver jars
+//		WebDriver driver = new HtmlUnitDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().deleteAllCookies();
+//		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
+//
+//		driver.get("https://ui.freecrm.com");
+//		driver.findElement(By.name(prop.getProperty("username_name"))).sendKeys(prop.getProperty("userName"));
+//		driver.findElement(By.name(prop.getProperty("password_name"))).sendKeys(prop.getProperty("Password"));
 	}
 
 }
